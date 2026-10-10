@@ -1,0 +1,27 @@
+*{
+    cursor: pointer;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(-45deg, hotpink, yellow, blue, red, green, hotpink, yellow, blue, red, green);
+  background-size: 300% 300%;
+  animation: gradientMove 10s linear infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 89.5% 89.5%;
+  }
+}
+
+#hidden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 100;
+}
