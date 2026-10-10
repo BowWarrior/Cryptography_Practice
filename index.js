@@ -5,11 +5,11 @@ function hi(){
     let username = document.getElementById("username").value;
     let password = document.getElementById("password").value; 
     
-    if(username === suckMyBallz && password === fuckYou){
+    /*if(username === suckMyBallz && password === fuckYou){
         alert("you're in chat");
     }else{
         alert("fuck you nerd");
-    }
+    }*/
 }
 
 function unclick(){
