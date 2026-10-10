@@ -1,0 +1,28 @@
+HINTS:
+
+1. Look at supplemental()
+1. All comments are hints!!!!!!!!!!!!
+1. third in supplemental is your input as the user
+2. stringParse() returns the username and password
+3. supplemental3() returns the hash for the username and password
+4. in supplemental2(), thing1 and thing2 are the hashes of the username and password
+5. supplemental2() returns the symmetric encryption
+6. symmetric encryption needs a key
+7. the key is the hash
+8. look at the url
+9. input the username/password after the encryption into the url in the respective spots
+
+
+
+
+supplemental3:
+//console.log(totalFirst + " : " + totalSecond); //1137, 742 normal
+//console.log(totalFirst + " : " + totalSecond); //1137000 : 965342 after the mult
+//console.log(first + " : " + second); //36057 : 75786 after the mod
+
+supplemental2:
+// console.log(first + " : " + second); 11511799107771216697108078467 : 1021179910789051719
+
+
+
+//new passwords are 11511799107771216697108078467 : 1021179910789051719
