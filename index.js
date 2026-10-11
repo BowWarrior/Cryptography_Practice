@@ -30,14 +30,7 @@ function supplemental(suckMyBallz, fuckYou){
     fourth = third[0];
     fifth = third[1];
     
-    thing2 = supplemental2(fourth, fifth);
-    fourth = BigInt(thing2[0]);
-    fifth = BigInt(thing2[1]);
-
-    first = first%216697109113n;
-    second = second%789053333n;
-
-    if(fourth%216697109113n == first && fifth%789053333n == second){
+    if(fourth == first && fifth == second){
         alert("you cracked the password!");
     } else{
         alert("Naw. You fail chud.")
