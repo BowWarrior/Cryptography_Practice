@@ -19,20 +19,25 @@ function unclick(){
 }
 
 
-function supplemental(){
+function supplemental(suckMyBallz, fuckYou){
     let thing = window.location.href;
-    // thing = stringParse(thing);
-    // first = thing[0];
-    // second = thing[1];
 
-    // thing = supplemental2(first, second);
-    // first = thing[0];
-    // second = thing[1];
-    
+    thing1 = supplemental2(suckMyBallz, fuckYou);
+    first = thing1[0];
+    second = thing1[1];
+
     let third = stringParse(thing);
-    fourth = BigInt(third[0]);
-    fifth = BigInt(third[1]);
-    if(fourth%216697109113n == 74239097650 && fifth%789053333n == 78246264){
+    fourth = third[0];
+    fifth = third[1];
+    
+    thing2 = supplemental2(fourth, fifth);
+    fourth = BigInt(thing2[0]);
+    fifth = BigInt(thing2[1]);
+
+    first = first%216697109113n;
+    second = second%789053333n;
+
+    if(fourth%216697109113n == first && fifth%789053333n == second){
         alert("you cracked the password!");
     } else{
         alert("Naw. You fail chud.")
@@ -64,9 +69,7 @@ function supplemental2(first, second){
 
     first = BigInt(totalFirst)^BigInt(third);
     second = BigInt(totalSecond)^BigInt(fourth);
-    console.log(first + " : " + second);
     
-
     return [first, second];
 }
 
