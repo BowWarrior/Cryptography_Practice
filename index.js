@@ -1,5 +1,5 @@
-const suckMyBallz = "suckMyBallz";
-const fuckYou = "fuckYou";
+const suckMyBallz = "youllNeverGetThis";
+const fuckYou = "don'tFailNow";
 
 function hi(){
     let username = document.getElementById("username").value;
