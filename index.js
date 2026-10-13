@@ -19,7 +19,7 @@ function unclick(){
 }
 
 
-function supplemental(suckMyBallz, fuckYou){
+function supplemental(youllNeverGetThis, dontFailNow){
     let thing = window.location.href;
 
     thing1 = supplemental2(suckMyBallz, fuckYou);
