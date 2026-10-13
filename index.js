@@ -22,7 +22,7 @@ function unclick(){
 function supplemental(youllNeverGetThis, dontFailNow){
     let thing = window.location.href;
 
-    thing1 = supplemental2(suckMyBallz, fuckYou);
+    thing1 = supplemental2(youllNeverGetThis, dontFailNow);
     first = thing1[0];
     second = thing1[1];
 
